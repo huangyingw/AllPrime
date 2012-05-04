@@ -3,7 +3,7 @@ public class mainThreadClass {
 		System.out.println("Inside main  ");
 		int i;
 		for (i = 1; i <= 10; i++) {
-			PrimeThread p = new PrimeThread(i);
+			PrimeThread p = new PrimeThread(1, 200000);
 			p.start();
 		}
 	}
